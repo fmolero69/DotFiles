@@ -1,6 +1,6 @@
 # DotFiles
 
-### Features
+## Features
 ¡Bienvenido a mi repositorio de Dotfiles y Temas personalizados para Qtile WM! 
 Aquí encontrarás una colección de configuraciones y scripts que he creado para personalizar y optimizar mi entorno de trabajo en Qtile. Este repositorio incluye un script de instalación que facilita la implementación de mis temas personalizados, permitiéndote personalizar tu propio entorno de manera sencilla y eficiente. 
 
@@ -31,7 +31,7 @@ themes
 
 Este proyecto lo iré actualizando a medida que vaya creando nuevos temas para qtile
 
-### Install
+## Install
 
 ```
 git clone git@github.com:fmolero69/DotFiles.git
