@@ -28,4 +28,5 @@ themes
     ├── qtile
     └── rofi
 ```
-Este proyecto lo ire actualizando a medida que valla creando nuevos temas para qtile
+
+Este proyecto lo iré actualizando a medida que vaya creando nuevos temas para qtile
