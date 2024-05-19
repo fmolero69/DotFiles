@@ -34,6 +34,8 @@ Este proyecto lo iré actualizando a medida que vaya creando nuevos temas para q
 ## Install
 
 ```
+cd /home/$USER
+
 git clone git@github.com:fmolero69/DotFiles.git
 
 ```
