@@ -16,7 +16,7 @@ Aquí encontrarás una colección de configuraciones y scripts que he creado par
 - Menu: rofi
 
 ```
- themes
+themes
 ├── material
 │   ├── alacritty
 │   ├── dunst
@@ -27,6 +27,5 @@ Aquí encontrarás una colección de configuraciones y scripts que he creado par
    	├── dunst
    	├── qtile
    	└── rofi
-
 ```
 Este proyecto lo ire actualizando a medida que valla creando nuevos temas para qtile
