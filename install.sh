@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Author: virus69
 # Date 19 - 05 - 2024
 # Este script está bajo la Licencia Pública General de GNU v3.0 (GPL-3.0)
