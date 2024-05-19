@@ -15,6 +15,7 @@ Aquí encontrarás una colección de configuraciones y scripts que he creado par
 - Notify: dunst
 - Menu: rofi
 
+```
 themes
 ├── material
 │   ├── alacritty
