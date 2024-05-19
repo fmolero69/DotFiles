@@ -31,7 +31,7 @@ themes
 
 Este proyecto lo iré actualizando a medida que vaya creando nuevos temas para qtile
 
-# Install
+### Install
 
 ```
 git clone git@github.com:fmolero69/DotFiles.git
