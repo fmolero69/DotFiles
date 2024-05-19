@@ -30,3 +30,23 @@ themes
 ```
 
 Este proyecto lo iré actualizando a medida que vaya creando nuevos temas para qtile
+
+# Install
+
+```
+git clone git@github.com:fmolero69/DotFiles.git
+
+```
+
+```
+$ cd DotFiles
+$ ./install.sh
+```
+```
+Seleccione una opción:
+1. Material Theme
+2. Nightfox Theme
+3. Salir
+Ingrese su opción:
+```
+
