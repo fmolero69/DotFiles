@@ -204,13 +204,13 @@ screens = [
             [
             # Left side
 				widget.Spacer(length=15,
-                    background='#192330',
+                    background='#101c29',
                 ),
 
                 widget.Image(
                     filename='~/.config/qtile/Assets/launch_Icon.png',
                     margin=2,
-                    background='#192330',
+                    background='#101c29',
                     mouse_callbacks={"Button1":search},
                 ),
 
@@ -222,24 +222,24 @@ screens = [
                     fontsize=24,
                     borderwidth=3,
                     highlight_method='block',
-                    active='#86918A',
-                    block_highlight_text_color="#D3C6AA",
+                    active='#add2c1',
+                    block_highlight_text_color="#73a9de",
                     highlight_color='#4B427E',
-                    inactive='#192330',
+                    inactive='#101c29',
                     foreground='#4B427E',
-                    background='#283648',
-                    this_current_screen_border='#283648',
-                    this_screen_border='#283648',
-                    other_current_screen_border='#283648',
-                    other_screen_border='#283648',
-                    urgent_border='#283648',
+                    background='#536e86',
+                    this_current_screen_border='#536e86',
+                    this_screen_border='#536e86',
+                    other_current_screen_border='#536e86',
+                    other_screen_border='#536e86',
+                    urgent_border='#536e86',
                     rounded=True,
                     disable_drag=True,
                  ),
 
                 widget.Spacer(
                 length=8,
-                background='#283648',
+                background='#536e86',
                 ),
 
                 widget.Image(
@@ -248,12 +248,12 @@ screens = [
 
                 widget.Image(
                     filename='~/.config/qtile/Assets/layout.png',
-                    background="#283648"
+                    background="#536e86"
                 ),
 
                 widget.CurrentLayout(
-                    background='#283648',
-                    foreground='#86918A',
+                    background='#536e86',
+                    foreground='#101c29',
                     fmt='{}',
                     font="Terminess Nerd Font Mono",
                     fontsize=13,
@@ -266,11 +266,11 @@ screens = [
                 widget.Image(
                     filename='~/.config/qtile/Assets/search.png',
                     margin=2,
-                    background='#192330',
+                    background='#101c29',
                 ),
 
                 widget.Prompt(
-                    background='#192330',
+                    background='#101c29',
                     font="Terminess Nerd Font Mono",
                     fontsize=13,
                     foreground='#86918A',
@@ -281,11 +281,11 @@ screens = [
                 ),
 
                 widget.WindowName(
-                    background = '#283648',
+                    background = '#536e86',
                     format = "{name}",
                     font="Terminess Nerd Font Mono",
                     fontsize=13,
-                    foreground='#86918A',
+                    foreground='#101c29',
                     empty_group_string = 'Desktop',
                 ),
 
@@ -295,17 +295,17 @@ screens = [
 
                 widget.Image(
                     filename='~/.config/qtile/Assets/Misc/ram.png',
-                    background='#192330',
+                    background='#101c29',
                 ),
 
                 widget.Spacer(
                     length=-7,
-                    background='#192330',
+                    background='#101c29',
                 ),
 
             # Right side
                 widget.Memory(
-                    background='#192330',
+                    background='#101c29',
                     format='{MemUsed: .0f}{mm}',
                     foreground='#86918A',
                     font="Terminess Nerd Font Mono",
@@ -314,8 +314,8 @@ screens = [
                 ),
 
                 widget.Image(
-                    filename='~/.config/qtile/Assets/6.png',
-                    background='#283648',
+                    filename='~/.config/qtile/Assets/11.png',
+                    background='#add2c1',
                 ),
 
                 #widget.Net(
@@ -334,44 +334,44 @@ screens = [
                     font="Font Awesome 6 Free",
                     fontsize=13,
                     text="",
-                    foreground="86918A",
-                    background="283648",                   
+                    foreground="101c29",
+                    background="add2c1",                   
                 ),
                 widget.CPU(
-                    foreground="86918A",
-                    background="283648",
+                    foreground="101c29",
+                    background="add2c1",
                     format= 'CPU {freq_current}GHz',
                     #**powerline,
                 ),             
 
                 widget.Image(
-                    filename='~/.config/qtile/Assets/2.png',
+                    filename='~/.config/qtile/Assets/10.png',
                 ),
                 widget.TextBox(
                     font="Font Awesome 6 Free",
                     fontsize=10,
                     text="",
-                    foreground='86918A',
-                    background='283648', 
+                    foreground='101c29',
+                    background='c5ffff', 
                 ),
 
                 widget.CheckUpdates(
-                    foreground='86918A',
-                    background='283648', 
+                    foreground='101c29',
+                    background='c5ffff', 
                     distro = "Arch_checkupdates",
                     colour_have_updates = "de935f",
                     no_update_string='No updates',
-                    colour_no_updates='86918A',
+                    colour_no_updates='101c29',
                     update_interval = 30,
                 ),
 
                 widget.Image(
-                    filename='~/.config/qtile/Assets/2.png',
+                    filename='~/.config/qtile/Assets/9.png',
                 ),
 
                 widget.Spacer(
                     length=8,
-                    background='#283648',
+                    background='#536e86',
                 ),
 
                 widget.Volume(
@@ -379,74 +379,74 @@ screens = [
                     fontsize=13,
                     theme_path='~/.config/qtile/Assets/Volume/',
                     emoji=True,
-                    background='#283648',
+                    background='#536e86',
                 ),
 
                 widget.Spacer(
                     length=-5,
-                    background='#283648',
+                    background='#536e86',
                 ),
 
                 widget.Volume(
                     font="Terminess Nerd Font Mono",
                     fontsize=13,
-                    background='#283648',
-                    foreground='#86918A',
+                    background='#536e86',
+                    foreground='#101c29',
                 ),
 
                 widget.Image(
-                    filename='~/.config/qtile/Assets/2.png',
+                    filename='~/.config/qtile/Assets/8.png',
                 ),
 
                 widget.Spacer(
                     length=8,
-                    background='#283648',
+                    background='#73a9de',
                 ),
 
                 widget.Image(
                     filename='~/.config/qtile/Assets/Misc/clock.png',
-                    background='#283648',
+                    background='#73a9deff',
                     margin_y=6,
                     margin_x=5,
                 ),
 
                 widget.Clock(
                     format='%I:%M %p',
-                    background='#283648',
-                    foreground='#86918A',
+                    background='#73a9de',
+                    foreground='#101c29',
                     font="Terminess Nerd Font Mono",
                     fontsize=13,
                 ),
 
                 widget.Image(
-                    filename='~/.config/qtile/Assets/5.png',
+                    filename='~/.config/qtile/Assets/7.png',
                     background='#283648',
                 ),
 
                 widget.Systray(
-                    background='#192330',
+                    background='#101c29',
                     fontsize=2,
                 ),
 
                 widget.Spacer(
                     length=12,
-                    background='#192330',
+                    background='#101c29',
                 ),
 
                 widget.Image(
                     filename='~/.config/qtile/Assets/on-off.png',
                     margin=2,
-                    background='#192330',
+                    background='#101c29',
                     mouse_callbacks={"Button1":power},
                 ),
 
                 widget.Spacer(
                     length=12,
-                    background='#192330',
+                    background='#101c29',
                 ),
             ],
             28,
-            border_color = '#192330',
+            border_color = '#101c29',
             border_width = [0,0,0,0],
             margin = [10,10,4,10],
             #margin = [15,60,6,60],

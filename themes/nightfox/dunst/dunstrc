@@ -147,27 +147,27 @@ context = ctrl+shift+grave
 
 [urgency_low]
 # Configuración para notificaciones de baja prioridad
-foreground = "#F2F2F2"
-background = "#283648"
-frame_color = "#283648"
+foreground = "#101c29"
+background = "#536e86"
+frame_color = "#536e86"
 timeout = 10
 # Icono para notificaciones de baja prioridad (descomentar para habilitar)
 #icon = ~/.config/dunst/images/notification.png
 
 [urgency_normal]
 # Configuración para notificaciones de prioridad normal
-background = "#192330"
+background = "#101c29"
 foreground = "#F2F2F2"
-frame_color = "#192330"
+frame_color = "#101c29"
 timeout = 10
 # Icono para notificaciones de prioridad normal (descomentar para habilitar)
 #icon = ~/.config/dunst/images/notification.png
 
 [urgency_critical]
 # Configuración para notificaciones de prioridad crítica
-background = "#161e29"
-foreground = "#F2F2F2"
-frame_color = "#161e29"
+background = "#73a9de"
+foreground = "#101c29"
+frame_color = "#73a9de"
 timeout = 10
 # Icono para notificaciones de prioridad crítica (descomentar para habilitar)
 #icon = ~/.config/dunst/images/notification.png

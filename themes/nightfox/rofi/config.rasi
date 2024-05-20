@@ -2,18 +2,18 @@
 
 * {
   /* Default background color */
-  background-color: #192330;
-  text-color:       #283648;
+  background-color: #101c29;
+  text-color:       #f2f2f2;
   font: "JetBrainsMono Bold 10";
 }
 
 
 window {
   padding: 1em;
-  border-color: #192330;
+  border-color: #101c29;
   border:       5px;
   border-radius: 10px;
-  background-color: #192330;
+  background-color: #101c29;
 
 }
 
@@ -65,9 +65,9 @@ element,element-text,element-icon, button {
 inputbar {
   margin: 0px 10px;
   spacing: 0.4em;
-  border-color: #192330;
+  border-color: #101c29;
   border:        5px;
-  background-color: #192330;
+  background-color: #101c29;
   children: [entry,overlay,case-indicator];
 }
 
@@ -86,8 +86,8 @@ listview {
   border:       0px 5px 5px 5px;
   border-radius: 10px 10px 10px 10px;
   spacing: 10px;
-  background-color: #192330;
-  border-color:     #192330;
+  background-color: #536e86;
+  border-color:     #536e86;
   scrollbar: true;
 }
 
@@ -100,7 +100,7 @@ element {
 }
 element-text {
     background-color: #192330;
-    text-color:       #283648;
+    text-color:       #f2f2f2;
     font: "JetBrains Mono Medium";
 }
 
@@ -117,9 +117,9 @@ element.normal.active {
     text-color:       #283648;
 }
 element.selected.normal {
-    background-color: #283648;
-    border-color: #283648;
-    text-color:       #283648;
+    background-color: #73a9de;
+    border-color: #73a9de;
+    text-color:       #192330;
 }
 element.selected.urgent {
     background-color: #283648;
@@ -146,9 +146,9 @@ element.alternate.active {
 
 
 element-text.selected.normal {
-    background-color: #283648;
-    border-color: #283648;
-    text-color:       #d4d9e1;
+    background-color: #73a9de;
+    border-color: #73a9de;
+    text-color:       #192330;
     font: "JetBrains Mono Medium";
 }
 element-text.selected.urgent {
@@ -167,7 +167,7 @@ element-text.selected.active {
 scrollbar {
     width:        4px ;
     border:       0;
-    handle-color: #283648;
+    handle-color: #add2c1;
     handle-width: 8px ;
     padding:      0;
 }
@@ -186,7 +186,7 @@ button {
     horizontal-align: 0.5;
 }
 button selected.normal {
-    text-color: #283648;
+    text-color: #192330;
     margin: 0px;
     padding: 0px;
     border:     5px 5px 5px 5px ;
@@ -198,8 +198,8 @@ button selected.normal {
 entry {
     placeholder: "Search here";
     placeholder-color: #192330;
-    border-color: #3d4f5b;
-    background-color: #3d4f5b;
+    border-color: #add2c1;
+    background-color: #add2c1;
     border:        10px;
     border-radius: 2px 2px 2px 2px;
     text-color: #d4d9e1;

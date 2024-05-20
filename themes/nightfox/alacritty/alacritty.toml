@@ -20,34 +20,32 @@ style = "Regular"
 [window]
 opacity = 0.8
 
-
-#import = ["~/.config/alacritty/themes/themes/everforest_dark.toml"]
-
-# Colors (Everforest Dark)
-
 # Default colors
 [colors]
+
+  # Colores predeterminados
   [colors.primary]
-    background = '#161e29'
-    foreground = '#85a7d6'
+    background = "#161e29"
+    foreground = "#73a9de"
 
-
+  # Colores normales
   [colors.normal]
-    black   = '#192330'
-    red     = '#c25872'
-    green   = '#81b29a'
-    yellow  = '#dbad3f'
-    blue    = '#719cd6'
-    magenta = '#9977cf'
-    cyan    = '#5e8d87'
-    white   = '#57616f'
+    black 	= "#192330"
+    red 	= "#c94f6d"
+    green 	= "#81b29a"
+    yellow 	= "#dbc074"
+    blue 	= "#719cd6"
+    magenta = "#9d79d6"
+    cyan 	= "#9bc9b3"
+    white 	= "#57616f"
 
+  # Colores brillantes
   [colors.bright]
-    black   = '#283648'
-    red     = '#c9607a'
-    green   = '#97beab'
-    yellow  = '#dbc380'
-    blue    = '#85a7d6'
-    magenta = '#a789d6'
-    cyan    = '#8abeb7'
-    white   = '#d4d9e1'
+    black 	= "#283648"
+    red 	= "#c9607a"
+    green 	= "#97beab"
+    yellow 	= "#dbc380"
+    blue 	= "#85a7d6"
+    magenta = "#a789d6"
+    cyan 	= "#8abeb7"
+    white 	= "#d4d9e1"
