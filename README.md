@@ -59,5 +59,6 @@ Ingrese su opción:
 ![Captura de pantalla_2024-05-17_09-48-47](https://github.com/fmolero69/MyDotFiles/assets/116031640/2bdccee2-8ab4-4bd9-98f6-4c69ebdf3614)
 
 
-
+##### Nightfox
+![Captura de pantalla_2024-05-20_15-11-58](https://github.com/fmolero69/DotFiles/assets/116031640/348383ff-c127-49a1-825f-85016d640aa0)
 
