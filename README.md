@@ -6,6 +6,8 @@ Aquí encontrarás una colección de configuraciones y scripts que he creado par
 
 ¡Explora, experimenta y lleva tu experiencia en Qtile al siguiente nivel con estos Dotfiles y Temas exclusivos! Recuerda adaptar esta descripción a tu estilo y personalidad, ¡haz que refleje tu pasión y dedicación por la personalización de tu entorno de trabajo en Qtile!
 
+Los temas que he creado estan basado en [gitkkal44/Cozytile](http://https://github.com/Darkkal44/Cozytile "gitkkal44/Cozytile")
+
 ##### Por los momentos solo hay disponible 2 temas:
 - material
 - nightfox
