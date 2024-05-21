@@ -58,7 +58,7 @@ Ingrese su opción:
 
 ##### Material
 
-![Captura de pantalla_2024-05-17_09-48-47](https://github.com/fmolero69/MyDotFiles/assets/116031640/2bdccee2-8ab4-4bd9-98f6-4c69ebdf3614)
+![Captura de pantalla_2024-05-17_09-48-47](https://github.com/fmolero69/DotFiles/assets/116031640/135664d0-1dbb-4b84-9b33-511c1590a3e5)
 
 
 ##### Nightfox
