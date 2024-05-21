@@ -330,6 +330,32 @@ screens = [
                 #    filename='~/.config/qtile/Assets/2.png',
                 #),
 
+   		#widget.Image(
+                #    filename='~/.config/qtile/Assets/2.png',
+                #),
+
+
+                #widget.Spacer(
+                #    length=8,
+                #    background='#353446',
+                #),
+
+
+                #widget.BatteryIcon(
+                #    theme_path='~/.config/qtile/Assets/Battery/',
+                #    background='#353446',
+                #    scale=1,
+                #),
+
+
+                #widget.Battery(
+                #    font='JetBrains Mono Bold',
+                #    background='#353446',
+                #    foreground='#CAA9E0',
+                #    format='{percent:2.0%}',
+                #    fontsize=13,
+                #),
+
                 widget.TextBox(
                     font="Font Awesome 6 Free",
                     fontsize=13,
