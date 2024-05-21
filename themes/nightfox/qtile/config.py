@@ -72,6 +72,7 @@ keys = [
     # Control de volumen
     Key([], "XF86AudioMute", lazy.spawn("amixer -q set Master toggle")),
     Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume 0 -5%")),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume 0 +5%")),
     Key([], "XF86AudioPrev", lazy.spawn("playerctl previous")),
     Key([], "XF86AudioStop", lazy.spawn("playerctl stop")),
 
@@ -328,32 +329,6 @@ screens = [
 
                 #widget.Image(
                 #    filename='~/.config/qtile/Assets/2.png',
-                #),
-
-   		#widget.Image(
-                #    filename='~/.config/qtile/Assets/2.png',
-                #),
-
-
-                #widget.Spacer(
-                #    length=8,
-                #    background='#353446',
-                #),
-
-
-                #widget.BatteryIcon(
-                #    theme_path='~/.config/qtile/Assets/Battery/',
-                #    background='#353446',
-                #    scale=1,
-                #),
-
-
-                #widget.Battery(
-                #    font='JetBrains Mono Bold',
-                #    background='#353446',
-                #    foreground='#CAA9E0',
-                #    format='{percent:2.0%}',
-                #    fontsize=13,
                 #),
 
                 widget.TextBox(
