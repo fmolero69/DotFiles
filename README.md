@@ -62,12 +62,10 @@ Ingrese su opción:
 ## Themes
 
 ##### Material
-
 ![Captura de pantalla_2024-05-17_09-48-47](https://github.com/fmolero69/DotFiles/assets/116031640/135664d0-1dbb-4b84-9b33-511c1590a3e5)
 
-
 ##### Nightfox
-![Captura de pantalla_2024-05-20_15-11-58](https://github.com/fmolero69/DotFiles/assets/116031640/348383ff-c127-49a1-825f-85016d640aa0)
+![Captura de pantalla_2024-05-22_13-37-03](https://github.com/fmolero69/DotFiles/assets/116031640/db955178-7c01-4bb8-9bac-81f89a20ad90)
 
 ##### Crunch
 ![Captura de pantalla_2024-05-22_11-49-29](https://github.com/fmolero69/DotFiles/assets/116031640/f8487a80-13be-4232-92ae-72efabd21ca5)
