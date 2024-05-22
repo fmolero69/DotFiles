@@ -18,7 +18,12 @@ Los temas que he creado estan basado en [gitkkal44/Cozytile](http://https://gith
 - Menu: rofi
 
 ```
-themes
+themes/
+├── crunch
+│   ├── alacritty
+│   ├── dunst
+│   ├── qtile
+│   └── rofi
 ├── material
 │   ├── alacritty
 │   ├── dunst
@@ -63,4 +68,7 @@ Ingrese su opción:
 
 ##### Nightfox
 ![Captura de pantalla_2024-05-20_15-11-58](https://github.com/fmolero69/DotFiles/assets/116031640/348383ff-c127-49a1-825f-85016d640aa0)
+
+##### Crunch
+![Captura de pantalla_2024-05-22_11-49-29](https://github.com/fmolero69/DotFiles/assets/116031640/f8487a80-13be-4232-92ae-72efabd21ca5)
 
