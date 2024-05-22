@@ -1,0 +1,51 @@
+[font]
+size = 10.0
+
+[font.bold]
+family = "Terminess Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Terminess Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Terminess Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Terminess Nerd Font Mono"
+style = "Regular"
+
+[window]
+opacity = 0.8
+
+# Default colors
+[colors]
+
+  # Colores predeterminados
+  [colors.primary]
+  	background= '#1b1b1b'
+    foreground= '#ffffff'
+
+  # Colores normales
+  [colors.normal]
+    black=   '#000000'
+    red=     '#111111'
+    green=   '#222222'
+    yellow=  '#333333'
+    blue=    '#444444'
+    magenta= '#555555'
+    cyan=    '#666666'
+    white=   '#777777'
+
+  # Colores brillantes
+  [colors.bright]
+    black=   '#090909'
+    red=     '#181818'
+    green=   '#272727'
+    yellow=  '#393939'
+    blue=    '#484848'
+    magenta= '#595959'
+    cyan=    '#707070'
+    white=   '#818181'

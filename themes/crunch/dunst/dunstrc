@@ -1,0 +1,173 @@
+[global]
+# Monitor en el que se mostrarán las notificaciones (0 es el primero)
+monitor = 0
+
+# Seguir el monitor con el foco del mouse
+follow = mouse
+
+# Geometría de la ventana de notificación [ANCHO x ALTURA+DESPLAZAMIENTO_X+DESPLAZAMIENTO_Y]
+geometry = "300x60-15+46"
+
+# Desplazamiento adicional para evitar superposiciones
+offset = 60x60
+
+# Indicar cuando hay notificaciones ocultas
+indicate_hidden = yes
+
+# Encoger el texto si la notificación es demasiado ancha
+shrink = yes
+
+# Opacidad de las notificaciones (0 - 100)
+transparency = 0
+
+# Altura máxima permitida dentro del área de notificación (0 = sin límite)
+notification_height = 0
+
+# Mostrar barra de progreso para acciones de progreso
+progress_bar = true
+
+# Altura del separador entre notificaciones
+separator_height = 2
+
+# Espaciado interno de las notificaciones
+padding = 8
+horizontal_padding = 12
+
+# Ancho y color del borde de las notificaciones
+frame_width = 3
+frame_color = "#28333A"
+
+# Color del separador entre notificaciones
+separator_color = frame
+
+# Ordenar las notificaciones
+sort = yes
+
+# Tiempo de inactividad (en segundos) antes de ocultar notificaciones inactivas
+idle_threshold = 120
+
+# Fuente y tamaño de letra
+font = Terminess Nerd Font Mono 9
+line_height = 1
+
+# Permitir marcado en las notificaciones
+markup = full
+
+# Formato de las notificaciones (resumen en negrita, cuerpo debajo)
+format = "<b>%s</b>\n%b"
+
+# Alineación del texto
+alignment = left
+
+# Mostrar edad de las notificaciones después de este umbral (en segundos)
+show_age_threshold = 60
+
+# Ajustar el texto a varias líneas
+word_wrap = yes
+
+# Truncar texto largo en el medio
+ellipsize = middle
+
+# Ignorar saltos de línea en el texto
+ignore_newline = no
+
+# Agrupar notificaciones duplicadas
+stack_duplicates = true
+hide_duplicate_count = false
+
+# Mostrar indicadores de acción en las notificaciones
+show_indicators = yes
+
+## Iconos
+# Posición de los iconos
+icon_position = left
+
+# Tamaño máximo de los iconos
+max_icon_size = 32
+
+# Rutas de búsqueda de iconos
+icon_path = /usr/share/icons/candy-icons/apps/scalable:/usr/share/icons/candy-icons/devices/scalable/
+
+## Historial
+# Mantener historial de notificaciones
+sticky_history = yes
+
+# Longitud máxima del historial
+history_length = 20
+
+## Miscelánea
+# Comando dmenu para el menú contextual
+dmenu = /usr/bin/dmenu -p dunst:
+
+# Navegador web predeterminado
+browser = /usr/bin/firefox -new-tab
+
+# Ejecutar siempre el script
+always_run_script = true
+
+# Título de la ventana de notificación
+title = Dunst
+
+# Clase de la ventana de notificación
+class = Dunst
+
+# Deshabilitar notificaciones de inicio
+startup_notification = false
+
+# Nivel de detalle de los mensajes de registro
+verbosity = mesg
+
+# Radio de las esquinas redondeadas
+corner_radius = 8
+
+## Legado
+# Forzar compatibilidad con Xinerama
+force_xinerama = false
+
+## Ratón
+# Acción al hacer clic izquierdo
+mouse_left_click = close_current
+
+# Acción al hacer clic con el botón central
+mouse_middle_click = do_action  
+
+# Acción al hacer clic derecho
+mouse_right_click = close_all
+
+[experimental]
+# Usar DPI por monitor (experimental)
+per_monitor_dpi = false
+
+[shortcuts]
+# Atajos de teclado
+close = ctrl+space
+close_all = ctrl+shift+space
+history = ctrl+grave
+context = ctrl+shift+grave
+
+[urgency_low]
+# Configuración para notificaciones de baja prioridad
+foreground = "#111111"
+background = "#848a8b"
+frame_color = "#848a8b"
+timeout = 10
+# Icono para notificaciones de baja prioridad (descomentar para habilitar)
+#icon = ~/.config/dunst/images/notification.png
+
+[urgency_normal]
+# Configuración para notificaciones de prioridad normal
+background = "#525658"
+foreground = "#222222"
+frame_color = "#525658"
+timeout = 10
+# Icono para notificaciones de prioridad normal (descomentar para habilitar)
+#icon = ~/.config/dunst/images/notification.png
+
+[urgency_critical]
+# Configuración para notificaciones de prioridad crítica
+background = "#1c1f20"
+foreground = "#999999"
+frame_color = "#1c1f20"
+timeout = 10
+# Icono para notificaciones de prioridad crítica (descomentar para habilitar)
+#icon = ~/.config/dunst/images/notification.png
