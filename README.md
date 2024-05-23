@@ -11,6 +11,7 @@ Los temas que he creado estan basado en [gitkkal44/Cozytile](http://https://gith
 ##### Por los momentos solo hay disponible 2 temas:
 - material
 - nightfox
+- crunch
 
 ##### Se requiere tener instalado:
 - Terminal: alacritty
@@ -53,9 +54,10 @@ $ ./install.sh
 ```
 ```
 Seleccione una opción:
-1. Material Theme
-2. Nightfox Theme
-3. Salir
+1. Crunch Theme
+2. Material Theme
+3. Nightfox Theme
+4. Salir
 Ingrese su opción:
 ```
 
@@ -68,5 +70,4 @@ Ingrese su opción:
 ![Captura de pantalla_2024-05-22_13-37-03](https://github.com/fmolero69/DotFiles/assets/116031640/db955178-7c01-4bb8-9bac-81f89a20ad90)
 
 ##### Crunch
-![Captura de pantalla_2024-05-22_11-49-29](https://github.com/fmolero69/DotFiles/assets/116031640/f8487a80-13be-4232-92ae-72efabd21ca5)
-
+![Captura de pantalla_2024-05-23_13-17-19](https://github.com/fmolero69/DotFiles/assets/116031640/b844c986-0ef5-4a59-b673-e20422359f8b)
