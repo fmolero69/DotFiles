@@ -8,7 +8,7 @@ Aquí encontrarás una colección de configuraciones y scripts que he creado par
 
 Los temas que he creado estan basado en [gitkkal44/Cozytile](http://https://github.com/Darkkal44/Cozytile "gitkkal44/Cozytile")
 
-##### Por los momentos solo hay disponible 2 temas:
+##### Por los momentos solo hay disponible 3 temas:
 - material
 - nightfox
 - crunch
