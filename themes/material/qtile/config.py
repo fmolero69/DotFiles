@@ -507,6 +507,27 @@ auto_minimize = True
 # When using the Wayland backend, this can be used to configure input devices.
 wl_input_rules = None
 
+# Launch APP workspace default
+@hook.subscribe.client_new
+def move_to_firefox_workspace(client):
+    if client.window.get_wm_class()[0] == "Navigator":
+        qtile.groups_map["2"].toscreen()
+        client.togroup("2")
+
+@hook.subscribe.client_new
+def move_to_workspace(client):
+    wm_class = client.window.get_wm_class()[0]
+    if wm_class == "thunar":
+        qtile.groups_map["3"].toscreen()
+        client.togroup("3")
+
+@hook.subscribe.client_new
+def move_to_workspace(client):
+    wm_class = client.window.get_wm_class()[0]
+    if wm_class == "mousepad":
+        qtile.groups_map["4"].toscreen()
+        client.togroup("4")
+
 wmname = "qtile"
 
 # E O F
